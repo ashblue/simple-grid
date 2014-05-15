@@ -1,0 +1,24 @@
+.sg {
+  ul {
+    outline: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    background: #ccc;
+    list-style: none;
+    position: absolute;
+    display: block;
+    padding: 10px;
+    transition: all 0.3s;
+  }
+
+  .grid-tile-remove {
+    position: absolute;
+    bottom: 5px;
+    top: auto;
+    right: 5px;
+    cursor: pointer;
+  }
+}
